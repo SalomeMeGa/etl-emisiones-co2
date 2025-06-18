@@ -39,3 +39,7 @@ col3.metric("PIB", f"${ultimo['gdp']/1e9:.2f} B USD")
 grafico_emisiones_totales(df, pais_seleccionado)
 grafico_co2_per_capita(df, pais_seleccionado)
 grafico_pib_vs_co2(df, pais_seleccionado)
+
+
+st.markdown("<hr style='border: 1px solid #bbb;'>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 12px; color:gray;'> Desarrollado por Alberto Mendoza Garcìa@ 2025 </p>", unsafe_allow_html=True)
